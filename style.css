@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+
+.white{
+    width: 40vw;
+    height: 3vh;
+    background-color: white;
+    padding: 11px;
+    margin: 2px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 6px grey;
+    
+}
+
+.black {
+    width: 19vw;
+    height: 3vh;
+    background-color: black;
+    padding: 10px;
+    margin: 2px;
+    margin-top:-64px;
+    border: 1px solid black;
+    position: absolute;
+}
+.white:hover{
+    background-image:linear-gradient(to right, white, grey);
+    width: 38.9vw;
+    box-shadow:10px 3px 7px;
+}
+.black:hover{
+background-image:linear-gradient(to right, rgb(10, 10, 10), rgb(150, 144, 144));
+width:17.9vw ;
+}
+
+.abc{
+    text-align: right;
+    color: transparent;
+    position: relative;
+    font-size:25px;
+    font-weight: bolder;
+
+
+}
+
+.abc:hover{
+    text-align: right;
+    color: rgb(14, 13, 13);
+    font-size:-1vh;
+    
+}
